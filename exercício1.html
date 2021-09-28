@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    // 1. Declare uma variavel de nome weight
+    let weight;
+    
+    //2. Que tipo de dado é a variavel acima?
+    console.log(typeof weight)
+
+    /*
+      3. Declare uma variável e atribua valores para cada um dos dados:
+      *name: string
+      *age: number (integer)
+      *stars: Number (float)
+      *isSubscribed: boolean
+    */
+    let name = 'Rafael'
+    let age = 22
+    let stars = 4.9
+    isSubscribed = true
+
+    /* 4. A variavel student abaixo é de que tipo de dado?
+
+    4.1 Atribua a ela as mesmas propriedades e valores do exercicio 3.
+
+    4.2 Mostre no console log a seguinte mensagem:
+
+      <name> de idade <age> pesa <weight> kg.
+
+        Atenção substitua <name><age> e <weigth> pelos valores de cada propriedade do objeto.
+          */
+
+        let student = {
+          name: 'Rafael',
+          age: 26,
+          weight: 80
+        }
+
+        let student2 = {
+          name: 'Pablo',
+          age: 22,
+          weight: 70
+        }
+        
+        console.log(`${student.name} de idade ${student.age} pesa ${student.weight} kg.`)
+
+        /*
+          5. Declare uma variavel do tipo array, de nome students e atribua a ela nenhum valor, ou seja, somente o Array vaziu.
+        */
+
+        let students = [];
+
+        /*
+          6. Reatribua o valor para a variavel acima, colocando dentro dela o objeto student da questao 4. (Não copiar e colar o objeto, mas usar o objeto criado e inserir ele no array)
+        */
+
+        students = [
+          student
+        ]
+
+        console.log(students)
+
+        /*
+          7. Coloque no console o valor da posição zero do array acima
+        */
+        console.log(students[0])
+
+        /*
+          8. Crie um novo student e coloque na posição 1 do array studants
+        */
+        students = [
+          student,
+          student2
+        ]
+        //pode ser feito
+        // students[1] = student2
+        console.log(students[1])
+
+        /*
+          9. Sem rodar o código abaixo responda qual é a resposta do código abaixo e por que? Após sua resposta, rode o código abaxi e veja se você acertou.
+
+          console.log(a)
+          var a = 1
+        */
+
+        console.log(a)
+        var a = 1
+        console.log(a)
+        
+          
+
+
+        </script>
+</body>
+</html>
